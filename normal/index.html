@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>PWA</title>
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="./main.css">
+  <link rel="manifest" href="./manifest.json">
+</head>
+<body>
+  <h3>dddd</h3>
+  <img src="./quan.png" alt="" style="width:50px;">
+  <p class="test-text">9999</p>
+  <p class="test-text">8888</p>
+  <p class="test-text">77777</p>
+  <p class="test-text">6666</p>
+  <p>asss</p>
+  <p>6666666</p>
+</body>
+<script>
+  // 检测浏览器是否支持SW
+  if(navigator.serviceWorker != null){
+    navigator.serviceWorker.register('sw.js')
+    .then(function(registartion){
+      console.log('支持sw:',registartion)
+    })
+  }
+</script>
+</html>

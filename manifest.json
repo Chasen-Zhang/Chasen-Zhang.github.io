@@ -1,15 +1,20 @@
 {
-    "name": "一个PWA示例",
-    "short_name": "PWA示例",
-    "start_url": "/index.html",
-    "display": "standalone",
-    "background_color": "#fff",
-    "theme_color": "#3eaf7c",
-    "icons": [
-      {
-        "src": "./quan.png",
-        "sizes": "120x120",
-        "type": "image/png"
-      }
-    ]
-  }
+  "name": "hello-cli3",
+  "short_name": "hello-cli3",
+  "icons": [
+    {
+      "src": "/img/icons/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/img/icons/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#4DBA87"
+}
