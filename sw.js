@@ -1,5 +1,5 @@
 importScripts("./workbox-sw.js");
-var cacheStorageKey = 'minimal-pwa-3'
+var cacheStorageKey = 'minimal-pwa-4'
 var cacheList=[
   '/',
   'index.html',
